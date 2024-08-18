@@ -12,13 +12,12 @@ my_headers = {
 }
 
 response = requests.get(url, headers=my_headers)
-
+data = response.json()
 print(json.dumps(response.json(), indent=4))
 
 @app.route('/')
 def index():
-    content = json.dumps(response.json(), indent=2)
-    test_content = content["response"]
+    test_content = data["response"]["hits"][0]
     return flask.render_template(
         "index.html",
         test=test_content
