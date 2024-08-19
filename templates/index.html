@@ -4,8 +4,21 @@
 
     </head>
     <body>
-        <h1>Music!</h1>
-        <h2> coming soon!</h2>
-        <p> {{test}}</p>
+        <div class = "container song">
+            <img id="songImage" src={{songURL}}>
+            <table>
+                <tr>
+                    <td>
+                        <img id="artistProfile" src={{profileURL}}>
+                    </td>
+                    <td>
+                        <h1>
+                            <a href={{artistLink}}>Nat King Cole</a>
+                        </h1>
+                        <h2>{{title}}</h2>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </body>
  </html>
