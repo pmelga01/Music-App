@@ -1,15 +1,16 @@
 <!-- templates/index.html-->
 <html>
     <head>
-
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+        <title>Music App</title>
     </head>
     <body>
-        <div class = "container song">
-            <img id="songImage" src={{songURL}}>
-            <table>
+        <div class="container fade-in">
+            <img class="albumCover square" id="songImage" src={{songURL}}>
+            <table class="profileInfo">
                 <tr>
                     <td>
-                        <img id="artistProfile" src={{profileURL}}>
+                        <img class="square" id="artistProfile" src={{profileURL}}>
                     </td>
                     <td>
                         <h1>

@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EFE7DA;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 2rem;
+    border-radius: 5%;
+    box-shadow: 10px 10px 25px rgb(91, 92, 92);
+    background-color: #0E4749;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.albumCover {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+.profileInfo {
+    padding: 1rem;
+    background-color: #0E4749;
+    border-radius: 5%;
+    background-color: #EFE7DA;
+}
+
+.square {
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#artistProfile {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #95c623;
+}
+
+h2 {
+    color: #E55812;
+}
+
+a {
+    color: #002626;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+td {
+    padding: 1rem;
+}
+
+
+.fade-in { 
+    animation: fadeIn 3s; 
+}
+
+@keyframes fadeIn {
+    from {top:200px; opacity: 0;}
+    to {top:0px; opacity: 1;}
+  }
