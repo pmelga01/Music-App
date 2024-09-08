@@ -3,6 +3,9 @@ Pamela Melgar
 August 2024
 MLT Summer Project
 
+### Deployed Here!
+https://music-app-8ie3.onrender.com/
+
 ## The Theme
 The theme I chose was 'Nat King Cole' and 'Love' using the Genius Music API
 
